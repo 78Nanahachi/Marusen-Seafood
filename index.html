@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>極上の鮮魚を、最高の状態でお届け | 鮮魚仲買の直行便</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        ocean: '#0A2540',
+                        seafoam: '#E0F2FE',
+                        gold: '#D4AF37'
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .hero-bg {
+            background: linear-gradient(rgba(10, 37, 64, 0.75), rgba(10, 37, 64, 0.9)), 
+                        url('https://images.unsplash.com/photo-1534604973900-c43ab4c2e0ab?auto=format&fit=crop&w=1200&q=80') center/cover;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans leading-relaxed">
+
+    <header class="bg-ocean text-white py-4 px-6 sticky top-0 z-50 shadow-md">
+        <div class="max-w-6xl mx-auto flex justify-between items-center">
+            <div class="text-xl font-bold tracking-wider">鮮魚仲買直行便</div>
+            <nav class="hidden md:flex space-x-6 text-sm">
+                <a href="#concept" class="hover:text-sky-300 transition">こだわり</a>
+                <a href="#system" class="hover:text-sky-300 transition">お届けの仕組み</a>
+                <a href="#collaboration" class="hover:text-sky-300 transition">限定コラボ</a>
+            </nav>
+            <a href="#reserve" class="bg-amber-500 hover:bg-amber-600 text-ocean font-bold py-2 px-4 rounded text-sm transition">完全予約を申し込む</a>
+        </div>
+    </header>
+
+    <section class="hero-bg text-white py-24 px-6 text-center">
+        <div class="max-w-4xl mx-auto">
+            <span class="text-amber-400 font-bold tracking-widest text-sm uppercase block mb-3">プロの目利きが選ぶ逸品</span>
+            <h1 class="text-4xl md:text-6xl font-extrabold mb-6 leading-tight">
+                新鮮な鮮魚を、<br class="md:hidden">いつでもどこでもお届け
+            </h1>
+            <p class="text-lg md:text-xl text-slate-300 mb-10 max-w-2xl mx-auto">
+                市場からご自宅へ。海の状態と最高のタイミングを見極め、獲れたて希少な鮮魚をあなたのもとへ直送します。
+            </p>
+            <a href="#reserve" class="inline-block bg-amber-500 hover:bg-amber-600 text-ocean font-extrabold text-lg py-4 px-8 rounded-lg shadow-lg transform hover:-translate-y-0.5 transition">
+                獲れたてを予約する
+            </a>
+        </div>
+    </section>
+
+    <section id="concept" class="py-20 px-6 max-w-6xl mx-auto">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl font-bold text-ocean mb-4">私たちのこだわり</h2>
+            <div class="h-1 w-20 bg-amber-500 mx-auto"></div>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+            <div>
+                <img src="https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=600&q=80" alt="新鮮な魚" class="rounded-lg shadow-lg">
+            </div>
+            <div class="space-y-6">
+                <div class="flex items-start space-x-4">
+                    <div class="bg-sky-100 p-3 rounded-full text-ocean mt-1">
+                        ✨
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold text-ocean mb-2">獲れたて希少な鮮魚をお届け</h3>
+                        <p class="text-slate-600">一般の市場にはなかなか出回らない、仲買人だからこそ確保できる希少な高級魚や、その日の朝に水揚げされたばかりの極上の状態でお届けします。</p>
+                    </div>
+                </div>
+                <div class="flex items-start space-x-4">
+                    <div class="bg-sky-100 p-3 rounded-full text-ocean mt-1">
+                        🍽️
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold text-ocean mb-2">到着日の「夕食」に合わせた最適提供</h3>
+                        <p class="text-slate-600">一番美味しい状態で召し上がっていただくため、ご指定いただいた到着日の「夕食時間」から逆算し、最高の熟成・鮮度状態で届くよう下処理と梱包を徹底します。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="system" class="bg-ocean text-white py-20 px-6">
+        <div class="max-w-4xl mx-auto text-center">
+            <span class="text-amber-400 font-bold tracking-widest text-sm block mb-2">※重要なお願い※</span>
+            <h2 class="text-3xl font-bold mb-6">「いつ届くかわからない」完全予約制</h2>
+            <p class="text-slate-300 mb-8 leading-relaxed max-w-2xl mx-auto">
+                私たちは海の恵みと自然のサイクルを最優先しています。そのため、**いつお届けできるかはわかりません。本当に良い魚が「獲れたらお届け」**いたします。
+            </p>
+            <div class="bg-white/10 border border-white/20 rounded-xl p-6 text-left max-w-xl mx-auto">
+                <p class="text-amber-300 font-bold mb-2 flex items-center">
+                    ⚠️ ご予約に関する規約
+                </p>
+                <ul class="text-sm text-slate-200 list-disc pl-5 space-y-1">
+                    <li>本サービスは完全予約制となります。</li>
+                    <li>水揚げ状況に左右されるため、お届け日時の事前指定はできません。</li>
+                    <li>最高の鮮魚をお約束する性質上、**ご予約後のキャンセルはできません**。あらかじめご了承ください。</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="collaboration" class="py-20 px-6 max-w-6xl mx-auto text-center">
+        <div class="mb-12">
+            <h2 class="text-3xl font-bold text-ocean mb-4">レストランとの特別なコラボレーション</h2>
+            <p class="text-slate-600 max-w-2xl mx-auto">有名レストランのシェフと独占コラボ。ご自宅にお届けする鮮魚を使った、そのレストランのメニューにも載っていない「特別な限定レシピ」や特製ソースを同梱します。</p>
+        </div>
+        <div class="bg-seafoam rounded-2xl p-8 md:p-12 flex flex-col md:flex-row items-center justify-between gap-8 text-left max-w-4xl mx-auto">
+            <div>
+                <span class="bg-ocean text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">Premium Experience</span>
+                <h3 class="text-2xl font-bold text-ocean mt-3 mb-2">メニューにない特別な夜を。</h3>
+                <p class="text-slate-700 text-sm">極上の素材とプロの技が融合する、特別なディナータイムをご堪能ください。</p>
+            </div>
+            <div class="text-4xl">👨‍🍳 🤝 🐟</div>
+        </div>
+    </section>
+
+    <section id="reserve" class="bg-slate-100 py-20 px-6 border-t border-slate-200 text-center">
+        <div class="max-w-xl mx-auto">
+            <h2 class="text-3xl font-bold text-ocean mb-4">極上の海の恵みを、あなたへ</h2>
+            <p class="text-slate-600 mb-8">「本当の鮮魚の旨さ」を味わう覚悟のある方のみ、以下よりご予約ください。</p>
+            
+            <form class="space-y-4 text-left bg-white p-8 rounded-xl shadow-md">
+                <div>
+                    <label class="block text-sm font-bold text-slate-700 mb-1">お名前</label>
+                    <input type="text" placeholder="山田 太郎" class="w-full border border-slate-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-ocean">
+                </div>
+                <div>
+                    <label class="block text-sm font-bold text-slate-700 mb-1">メールアドレス</label>
+                    <input type="email" placeholder="example@email.com" class="w-full border border-slate-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-ocean">
+                </div>
+                <div class="pt-2">
+                    <button type="submit" class="w-full bg-amber-500 hover:bg-amber-600 text-ocean font-bold py-3 rounded shadow transition text-center block">
+                        規約に同意して予約する（キャンセル不可）
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer class="bg-ocean text-slate-400 py-8 px-6 text-center text-sm border-t border-slate-800">
+        <p>&copy; 2026 鮮魚仲買直行便. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
